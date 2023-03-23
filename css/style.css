@@ -1,0 +1,158 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    .bg-grey {
+        background: #f7f7f7;
+    }
+
+    section>.container {
+        /* width: 1170px;
+        margin: auto;
+        display: block; */
+        
+    }
+    a{
+        text-decoration: none
+    }
+    #nav-bar {
+        text-align: center;
+    }
+
+    ul li{
+        list-style: none;
+
+    }
+    p{
+        
+    }
+    /* banner */
+
+    #banner {
+        background-image: url(../images/banner.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 500px;
+        position: relative;
+        text-align: center;
+    }
+
+    .text-banner {
+        /* căn text banner ra giữa trung tâm */
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #f7f7f7;
+    }
+
+    /* navbar */
+    #menu{
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    #menu li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 30px;
+    }
+    #menu li a{
+        text-decoration: none;
+    }
+
+    /*  */
+    .info{
+        padding: 0px;
+    }
+    #target{
+        padding: 40px 20px;
+    }
+    #personal-info{
+        padding: 40px 20px;
+        background-color: #f1eeee;
+    }
+
+    /*--- */
+    .box-icon{
+        position: relative;
+    }
+    .box-icon i{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }                         
+    .title-job ul{
+        padding: 0;
+    }
+    .title-job{
+        margin-top: 20px;
+    }
+    .box-job{
+        padding: 10px;
+        border: 1px solid rgb(230, 227, 227);
+    }
+    .icon-so-thich{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .icon-so-thich i{
+        font-size: 25px;
+    }
+    .icon-so-thich a{
+        text-decoration: none;
+        
+    }
+    /* chưng chi */
+    .name-chungchi-1{
+        border-right: 1px solid rgb(228, 129, 15);
+    }
+    .name-chungchi img{
+        height: 120px;
+    }
+    .chungchi-top{
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgb(228, 129, 15);
+    }
+    .chungchi_1{
+        
+
+    }
+    
+    /*  dự án */
+    #project{
+        margin-top: 30px;
+    }
+    .CV-title{
+        display: grid;
+        grid-template-columns: 0.25fr 1fr;
+        column-gap: 10px;
+    }
+
+    /* footer */
+    .lien-he{
+        line-height: 60px;
+        height: 60px;
+        margin: 0 auto;
+        width: 330px;
+        padding: 0;
+       display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+    .lien-he li a{
+        text-decoration: none;
+        
+    }
+    #footer .container{
+        
+        
+    }

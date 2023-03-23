@@ -1,0 +1,38 @@
+@media only screen and (max-width: 576px) {
+    #nav-bar{
+        text-align: left;
+        
+    }
+    #menu{
+        height: auto;
+        
+        margin-left: 20px;
+    }
+    #menu li{
+        display: block;
+        margin: 0;
+        
+        
+    }
+    #menu li a{
+        
+    }
+    /* chứng chỉ giải thưởng */
+    .name-chungchi-1{
+        border-right: none;
+    }
+    .name-chungchi{
+        border-bottom: 1px solid rgb(228, 129, 15);
+        margin-bottom: 20px;
+    }
+    .name-chungchi img{
+        height: auto;
+        width: 100%;
+        border-right: none;
+    }
+    .chungchi-top{
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
